@@ -11,35 +11,38 @@
 
 <body>
   <div class= "container">
-    <form id="user-faves">
+  <div class="row">
+    <div id="blanks">
+      <form>
 
-    <div class="form-group">
-      <label for="favDog">What is your favorite kind of dog?</label>
-      <input id="favDog" type="text">
-    </div>
+      <div class="form-group">
+        <label for="favDog">What is your favorite kind of dog?</label>
+        <input id="favDog" class="form-control" type="text">
+      </div>
 
-    <div class="form-group">
-      <label for="favFruit">What is your favorite kind of fruit?</label>
-      <input id="favFruit" type="text">
-    </div>
+      <div class="form-group">
+        <label for="favFruit">What is your favorite kind of fruit?</label>
+        <input id="favFruit" class="form-control" type="text">
+      </div>
 
-    <div class="form-group">
-      <label for="favColor">What is your favorite color?</label>
-      <input id="favColor" type="text">
-    </div>
+      <div class="form-group">
+        <label for="favColor">What is your favorite color?</label>
+        <input id="favColor" class="form-control" type="text">
+      </div>
 
-    <div class="form-group">
-      <label for="favPlace">What is your favorite place?</label>
-      <input id="favPlace" type="text">
-    </div>
+      <div class="form-group">
+        <label for="favPlace">What is your favorite place?</label>
+        <input id="favPlace" class="form-control" type="text">
+      </div>
 
-
-        <button type="submit" class="btn btn-info btn-lg">Tell me what to do</button>
-
-
-    <div id="story">
-      <p>Your favorite dog is a <span class="fillInDog"></span>. You should share your <span class="fillInFruit"></span> with your <span class="fillInDog"></span>. The two of you should go to a <span class="fillInColor"></span> <span class="fillInPlace"></span> together!
-      </p>
-    </div>
+      <button type="submit" class="btn btn-info btn-lg">Tell me what to do</button>
+    </form>
   </div>
+  <div id="story">
+    <p>Your favorite dog is a <span class="favDog"></span>. You should share your <span class="favFruit"></span> with your <span class="favDog"></span>. The two of you should go to a <span class="favColor"></span> <span class="favPlace"></span> together!
+    </p>
+  </div>
+</div>
+</div>
 </body>
+</html>
